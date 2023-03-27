@@ -35,4 +35,13 @@ public class MyEdgeNode
     public void setNext(MyEdgeNode next) {
         this.next = next;
     }
+
+    public MyEdgeNode(int indexOfVertice, float weight) {
+        setIndexOfVertice(indexOfVertice);
+        setWeight(weight);
+    }
+
+    public String toString() {
+        return "" + weight;
+    }
 }
